@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/nyholm-psr7",
+    "description": "Tyhp type definitions for nyholm/psr7 1.8.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.8.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/nyholm-psr7-impl": "~1.8.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/nyholm-psr7-impl"
+        }
+    }
+}
